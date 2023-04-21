@@ -1,0 +1,38 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Gender.Female" xml:space="preserve">
+        <value>Female</value>
+    </data>
+    <data name="Gender.Male" xml:space="preserve">
+        <value>Male</value>
+    </data>
+    <data name="Race.Dwarf" xml:space="preserve">
+        <value>Dwarf</value>
+    </data>
+    <data name="Race.Elf" xml:space="preserve">
+        <value>Elf</value>
+    </data>
+    <data name="Race.Human" xml:space="preserve">
+        <value>Human</value>
+    </data>
+    <data name="Race.Kitsune" xml:space="preserve">
+        <value>Kitsune</value>
+    </data>
+    <data name="Race.Minas" xml:space="preserve">
+        <value>Minas</value>
+    </data>
+    <data name="Race.Serpent" xml:space="preserve">
+        <value>Serpent</value>
+    </data>
+</root>

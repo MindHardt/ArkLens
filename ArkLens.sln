@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Entities", "ArkLens.Entities\ArkLens.Entities.csproj", "{DA77AED4-9084-4E1E-B9BB-C05D6BF6033E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Builders", "ArkLens.Builders\ArkLens.Builders.csproj", "{82767845-647D-445E-8FC5-9EFFDA6C12FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Resources", "ArkLens.Resources\ArkLens.Resources.csproj", "{D88B3509-6919-45AE-BD28-0DF74B15A759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Core", "ArkLens.Core\ArkLens.Core.csproj", "{FD796E34-AD34-4FC3-9125-4BBCC37436DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA77AED4-9084-4E1E-B9BB-C05D6BF6033E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA77AED4-9084-4E1E-B9BB-C05D6BF6033E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA77AED4-9084-4E1E-B9BB-C05D6BF6033E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA77AED4-9084-4E1E-B9BB-C05D6BF6033E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82767845-647D-445E-8FC5-9EFFDA6C12FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82767845-647D-445E-8FC5-9EFFDA6C12FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82767845-647D-445E-8FC5-9EFFDA6C12FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82767845-647D-445E-8FC5-9EFFDA6C12FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88B3509-6919-45AE-BD28-0DF74B15A759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88B3509-6919-45AE-BD28-0DF74B15A759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88B3509-6919-45AE-BD28-0DF74B15A759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88B3509-6919-45AE-BD28-0DF74B15A759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ArkLens.Entities\ArkLens.Entities.csproj" />
+      <ProjectReference Include="..\ArkLens.Resources\ArkLens.Resources.csproj" />
+    </ItemGroup>
+
+</Project>
