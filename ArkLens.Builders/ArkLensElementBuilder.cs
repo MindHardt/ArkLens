@@ -37,8 +37,8 @@ public sealed class ArkLensElementBuilder<TElement> :
         }
     }
 
-    private void AdjustValue() => Value = IArkLensElementEnumeration<TElement>.GetByName(Name);
-    private void AdjustName() => Name = Value?.Name;
+    private void AdjustValue() => _value = IArkLensElementEnumeration<TElement>.GetByName(Name);
+    private void AdjustName() => _name = Value?.Name;
 
     protected override TElement UnsafeBuild() => Value!;
 
