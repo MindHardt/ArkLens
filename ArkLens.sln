@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Resources", "ArkLen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Core", "ArkLens.Core\ArkLens.Core.csproj", "{FD796E34-AD34-4FC3-9125-4BBCC37436DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLens.Snapshots", "ArkLens.Snapshots\ArkLens.Snapshots.csproj", "{2B1F6E39-9910-48DE-8F09-231650B56EDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD796E34-AD34-4FC3-9125-4BBCC37436DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1F6E39-9910-48DE-8F09-231650B56EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1F6E39-9910-48DE-8F09-231650B56EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1F6E39-9910-48DE-8F09-231650B56EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1F6E39-9910-48DE-8F09-231650B56EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

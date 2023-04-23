@@ -23,7 +23,7 @@ public sealed class ArkLensElementBuilder<TElement> :
         set
         {
             _name = value;
-            AdjustValue();
+            _value = IArkLensElementEnumeration<TElement>.GetByName(_name);
         }
     }
 
@@ -33,12 +33,9 @@ public sealed class ArkLensElementBuilder<TElement> :
         set
         {
             _value = value;
-            AdjustName();
+            _name = _value?.Name;
         }
     }
-
-    private void AdjustValue() => _value = IArkLensElementEnumeration<TElement>.GetByName(Name);
-    private void AdjustName() => _name = Value?.Name;
 
     protected override TElement UnsafeBuild() => Value!;
 
@@ -64,8 +61,14 @@ public sealed class ArkLensElementBuilder<TElement> :
 
     public static implicit operator TElement?(ArkLensElementBuilder<TElement> builder)
         => builder.Value;
+    
+    public static implicit operator string?(ArkLensElementBuilder<TElement> builder)
+        => builder.Name;
 
     public static implicit operator ArkLensElementBuilder<TElement>(TElement? value)
         => FromValue(value);
+    
+    public static implicit operator ArkLensElementBuilder<TElement>(string? name)
+        => FromName(name);
 
 }
